@@ -1,0 +1,13 @@
+train: /home/krsbi/datasets/dataset_bola-1/train/images
+val: /home/krsbi/datasets/dataset_bola-1/valid/images
+test: /home/krsbi/datasets/dataset_bola-1/test/images
+
+nc: 1
+names: ['bola']
+
+roboflow:
+  workspace: bbbnith
+  project: dataset_bola
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bbbnith/dataset_bola/dataset/1
