@@ -2,6 +2,11 @@ train: D:\Testting Folder\webcam_yolov8_1\YOLOv8_test_2\dataset_bola-1\train\ima
 val: D:\Testting Folder\webcam_yolov8_1\YOLOv8_test_2\dataset_bola-1\valid\images
 test: D:\Testting Folder\webcam_yolov8_1\YOLOv8_test_2\dataset_bola-1\test\images
 
+# for linux use this instead :
+# train: /home/krsbi/datasets/dataset_bola-1/train/images
+# val: /home/krsbi/datasets/dataset_bola-1/valid/images
+# test: /home/krsbi/datasets/dataset_bola-1/test/images
+
 nc: 1
 names: ['bola']
 

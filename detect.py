@@ -6,7 +6,7 @@ model = YOLO('runs/detect/yolov8n_se2/weights/best.pt')
 
 # Open the video file
 # video_path = "path/to/your/video/file.mp4"
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # Loop through the video frames
 while cap.isOpened():
