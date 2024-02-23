@@ -1,11 +1,11 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: dataset_bola-1\data.yaml
-epochs: 10
+data: /home/krsbi/YOLOv8_Orange_Ball_Detect2/bola-krsbi-2/data.yaml
+epochs: 100
 time: null
 patience: 50
-batch: 5
+batch: 8
 imgsz: 640
 save: true
 save_period: -1
@@ -102,4 +102,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\detect\yolov8n_se2
+save_dir: runs/detect/yolov8n_se2

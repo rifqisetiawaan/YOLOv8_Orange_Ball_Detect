@@ -8,7 +8,7 @@ model = YOLO('runs/detect/yolov8n_se2/weights/best.pt')
 # Open the video file
 # video_path = "path/to/your/video/file.mp4"
 
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0)
 
 
 # Loop through the video frames
@@ -19,7 +19,7 @@ while cap.isOpened():
 
     if success:
         # Run YOLOv8 inference on the frame
-        results = model(frame)
+        results = model(frame, conf=0.8)
 
         # Visualize the results on the frame
         annotated_frame = results[0].plot()

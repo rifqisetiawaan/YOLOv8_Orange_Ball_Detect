@@ -1,4 +1,4 @@
 from roboflow import Roboflow
-rf = Roboflow(api_key="xi0d0TDopsbaUEGnmKe1")
-project = rf.workspace("bbbnith").project("dataset_bola")
-dataset = project.version(1).download("yolov8")
+rf = Roboflow(api_key="mivzZ8eMkZ7M6Chri5SN")
+project = rf.workspace("krsbipolmanws").project("bola-krsbi")
+dataset = project.version(2).download("yolov8")

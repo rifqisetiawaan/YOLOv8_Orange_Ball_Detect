@@ -1,0 +1,12 @@
+names:
+- bola
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: bola-krsbi
+  url: https://universe.roboflow.com/krsbipolmanws/bola-krsbi/dataset/2
+  version: 2
+  workspace: krsbipolmanws
+test: test/images
+train: train/images
+val: valid/images

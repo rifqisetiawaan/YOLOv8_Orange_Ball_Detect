@@ -1,12 +1,12 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: data.yaml
-epochs: 10
+data: /home/krsbi/YOLOv8_Orange_Ball_Detect2/bola-krsbi-2/data.yaml
+epochs: 20
 time: null
 patience: 50
-batch: 5
-imgsz: 1280
+batch: 8
+imgsz: 640
 save: true
 save_period: -1
 cache: false
